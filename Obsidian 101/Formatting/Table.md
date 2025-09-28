@@ -34,4 +34,4 @@ First Header | Second Header
 
 First Header | Second Header
 ------------ | ------------
-[[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Guides/Format your notes\|Formatting]]	|  [[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Formatting/Callout\|Callouts]]
+[[Obsidian 101/Guides/Format your notes\|Formatting]]	|  [[Obsidian 101/Formatting/Callout\|Callouts]]

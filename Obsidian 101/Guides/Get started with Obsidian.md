@@ -5,10 +5,10 @@ We don’t think that’s true—the ideal setup would be complicated, but that�
 Okay, enough for how complicated it can get. The good news is how easy it is to get started: just 3 simple steps!
 
 1. Set up a nice place for yourself
-   → [[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Guides/Create a vault]]
+   → [[Obsidian 101/Guides/Create a vault]]
    
 2. Jot down some notes
-   → [[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Guides/Create your first note]]
+   → [[Obsidian 101/Guides/Create your first note]]
    
 3. Let your ideas mingle
-   → [[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Guides/Link notes]]
+   → [[Obsidian 101/Guides/Link notes]]

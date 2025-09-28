@@ -6,11 +6,11 @@ Hi, welcome to Obsidian!
 
 First of all, tell me a little bit about what's your experience with note-taking apps like?
 
-- [[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Adventurer/No prior experience|I have no prior experience]]
+- [[Obsidian 101/Adventurer/No prior experience|I have no prior experience]]
 
-- [[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Adventurer/From standard note-taking|I’ve used note-taking apps like Evernote and OneNote]]
+- [[Obsidian 101/Adventurer/From standard note-taking|I’ve used note-taking apps like Evernote and OneNote]]
 
-- [[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Adventurer/From plain-text note-taking|I have used plain-text based apps]]
+- [[Obsidian 101/Adventurer/From plain-text note-taking|I have used plain-text based apps]]
 
 ---
 

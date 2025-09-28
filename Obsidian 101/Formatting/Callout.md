@@ -16,7 +16,7 @@ Use the following syntax to denote a callout block: `> [!INFO]`.
 It will show up like this:
 > [!INFO]
 > Here's a callout block.
-> It supports **markdown** and [[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Formatting/Internal link|wikilinks]].
+> It supports **markdown** and [[Obsidian 101/Formatting/Internal link|wikilinks]].
 
 ### Types
 

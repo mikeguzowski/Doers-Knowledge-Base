@@ -159,9 +159,9 @@ Urgency is a numeric score that Tasks calculates for each task.
 Tasks simply sums up urgency scores of different aspects of a task:
 
 1. Due date
-1. Priority
-1. Scheduled date
-1. Start date
+2. Priority
+3. Scheduled date
+4. Start date
 
 As you can tell from the table below, **due dates have the strongest influence on urgency.**
 
@@ -663,9 +663,9 @@ The ⏩ button provides two choices:
 The postpone option looks at the first of these Task fields, and will edit the first of:
 
 1. **Due** date, if present.
-1. **Scheduled** date
+2. **Scheduled** date
     - if no Due date is present.
-1. **Start** date
+3. **Start** date
     - If no Due or Scheduled date is present.
 
 ### When is the postpone button shown?
@@ -3634,7 +3634,7 @@ Using the [[Create or edit Task]] modal, you can:
 1. **Either:**
     - open the **'Build a first draft'** task in the Edit Task Modal
     - and specify **'Test with users'** in **After this**.
-1. **Or:**
+2. **Or:**
     - open the **'Test with users'** task in the Edit Task Modal
     - and add **'Build a first draft'** in **Before this**.
 
@@ -3649,18 +3649,18 @@ Using the [[Auto-Suggest]] feature, when in **Source mode** or **Live Preview** 
 > This is an optional first step, if you want to control the `id` used:
 >
 > 1. Click at the end of the `Build a first draft`.
-> 1. Start typing `id` and select `🆔 id`.
-> 1. There are then two options:
+> 2. Start typing `id` and select `🆔 id`.
+> 3. There are then two options:
 >     - You can select `generate unique id` to generate an ID automatically.
 >     - Or you can specify your own.
 
 To create the dependency:
 
 1. Click at the end of the `Test with users` line.
-1. Start typing `id` or `dep`, and select `⛔ depends on id`.
-1. Start typing the task on which it should depend (`Build a first draft`)
-1. Click on the `Build a first draft` task, to add the dependency.
-1. Press the enter key. If no ID has been entered, an ID is generated for the task.
+2. Start typing `id` or `dep`, and select `⛔ depends on id`.
+3. Start typing the task on which it should depend (`Build a first draft`)
+4. Click on the `Build a first draft` task, to add the dependency.
+5. Press the enter key. If no ID has been entered, an ID is generated for the task.
 
 > [!info]
 > When selecting `⛔ depends on id`:
@@ -4325,10 +4325,10 @@ and we make Dataview fill in the file name for us automatically.
 ### Sample code - and how to use it
 
 1. Ensure that Dataview is installed in your Obsidian vault, and is enabled.
-1. Copy the entire following sample code block to your clipboard.
-1. Open an obsidian note that has some incomplete tasks.
-1. Paste the text in to Obsidian **without formatting** (`Shift+Ctrl+V` or `Shift+Command+V`).
-1. Switch to either Live Preview or Reading modes, to see the remaining tasks.
+2. Copy the entire following sample code block to your clipboard.
+3. Open an obsidian note that has some incomplete tasks.
+4. Paste the text in to Obsidian **without formatting** (`Shift+Ctrl+V` or `Shift+Command+V`).
+5. Switch to either Live Preview or Reading modes, to see the remaining tasks.
 
 Sample code block:
 
@@ -4795,19 +4795,19 @@ Suppose that you wanted to create a set of 3 statuses that cycle between each ot
 ### The Steps
 
 1. Open the Tasks settings pane
-1. Scroll down and click on 'Add New Task Status'
+2. Scroll down and click on 'Add New Task Status'
     - This will create a new, empty status:
     - ![Settings after adding a new empty status](../images/settings-custom-statuses-added-1.png)
-1. Click on the pencil icon
+3. Click on the pencil icon
     - This will open the [[Editing a Status|status edit modal]].
     - Notice the red colouring, to indicate values which are not yet valid.
     - If you aren't sure why something is invalid, click on the Checkmark button and an explanatory notice will pop up for a few seconds.
     - ![The modal for editing statuses](../images/settings-custom-statuses-dialog-1.png)
-1. Enter the desired values (see the table in Goal above):
+4. Enter the desired values (see the table in Goal above):
     - ![Enter the values for our new status](../images/settings-custom-statuses-dialog-2.png)
-1. Click on the Checkmark button to save the new status, and view the result:
+5. Click on the Checkmark button to save the new status, and view the result:
     - ![After saving the values for the new status](../images/settings-custom-statuses-added.png)
-1. Repeat for the other two statuses in Goal above and you should see a clear reflection of the flow of your new statuses
+6. Repeat for the other two statuses in Goal above and you should see a clear reflection of the flow of your new statuses
     - `[!]` -> `[D]` -> `[X]` -> `[!]`:
     - ![After adding the other two new statuses](../images/settings-custom-statuses-important-loop-added.png)
 
@@ -6924,7 +6924,7 @@ In the following examples, we describe the `heading` filter, but these comments 
     - Any quote characters (`'` and `"`) are included in the search text.
         - So `heading includes "Day Planner"` will match a section`## "Day Planner"`.
         - But will not match tasks with headings like `## Day Planner`.
-1. `heading (regex matches|regex does not match) /<JavaScript-style Regex>/`
+2. `heading (regex matches|regex does not match) /<JavaScript-style Regex>/`
     - Does regular expression match (case-sensitive by default).
     - Regular expression (or ‘regex’) searching is a powerful but advanced feature.
     - It requires thorough knowledge in order to use successfully, and not miss intended search results.
@@ -9492,10 +9492,10 @@ See [[Limiting#Limit number of tasks in each group|Limit number of tasks in each
 > The order of operations ensures that grouping does not modify which tasks are displayed, for example when the `limit` options are used:
 >
 > 1. all the filter instructions are run
-> 1. then any sorting instructions are run
-> 1. then any `limit` instructions are run
-> 1. then any grouping instructions are run
-> 1. then any `limit groups` instructions are run
+> 2. then any sorting instructions are run
+> 3. then any `limit` instructions are run
+> 4. then any grouping instructions are run
+> 5. then any `limit groups` instructions are run
 
 ## Screenshots
 
@@ -9593,7 +9593,7 @@ hide created date
 >     - Tasks is a bit more relaxed in recognising tags than Obsidian. For example,  `#123` is treated as a tag by Tasks, and so is included in Tasks' searches, sorting and grouping code.
 >     - However, `#123` is [not recognised as a valid Obsidian tag](https://help.obsidian.md/Editing+and+formatting/Tags#Tag+format) and so not hidden.
 >     - See [[Tags#Recognising Tags]] for more information.
-> 1. It is not possible to hide or show individual tags. We are tracking this in [discussion #848](https://github.com/obsidian-tasks-group/obsidian-tasks/discussions/848).
+> 2. It is not possible to hide or show individual tags. We are tracking this in [discussion #848](https://github.com/obsidian-tasks-group/obsidian-tasks/discussions/848).
 >     - However, you can hide individual tags in Tasks search results with CSS snippets: see [this comment](https://github.com/obsidian-tasks-group/obsidian-tasks/discussions/848#discussioncomment-12117010).
 
 ## Query Elements
@@ -12273,12 +12273,12 @@ This page documents all the available pieces of information in Queries that you 
 <!-- placeholder to force blank line after included text --><!-- endInclude -->
 
 1. `query.file` is a `TasksFile` object.
-1. You can see the current [TasksFile source code](https://github.com/obsidian-tasks-group/obsidian-tasks/blob/main/src/Scripting/TasksFile.ts), to explore its capabilities.
-1. The presence of `.md` filename extensions is chosen to match the existing conventions in the Tasks filter instructions [[Filters#File Path|path]] and [[Filters#File Name|filename]].
-1. `query.file.pathWithoutExtension` was added in Tasks 4.8.0.
-1. `query.file.filenameWithoutExtension` was added in Tasks 4.8.0.
-1. `query.file.hasProperty()` was added in Tasks 7.15.0.
-1. `query.file.property()` was added in Tasks 7.15.0.
+2. You can see the current [TasksFile source code](https://github.com/obsidian-tasks-group/obsidian-tasks/blob/main/src/Scripting/TasksFile.ts), to explore its capabilities.
+3. The presence of `.md` filename extensions is chosen to match the existing conventions in the Tasks filter instructions [[Filters#File Path|path]] and [[Filters#File Name|filename]].
+4. `query.file.pathWithoutExtension` was added in Tasks 4.8.0.
+5. `query.file.filenameWithoutExtension` was added in Tasks 4.8.0.
+6. `query.file.hasProperty()` was added in Tasks 7.15.0.
+7. `query.file.property()` was added in Tasks 7.15.0.
 
 ## Values for Query Search Properties
 
@@ -12363,10 +12363,10 @@ For more information, including adding your own customised statuses, see [[Statu
 <!-- placeholder to force blank line after included text --><!-- endInclude -->
 
 1. Each of these values is a `TasksDate` object. The [[#Values in TasksDate Properties]] section below shows what can be done with them.
-1. Note that currently all stored dates have no time, or rather, their time is midnight at the start of the day, local time.
-1. For example uses of date properties, see [[Filters#Due Date]] and [[Grouping#Due Date]].
-1. `task.happens` is the earlier of `task.due`, `task.scheduled` and `task.start`.
-1. `task.cancelled` was added in Tasks 5.5.0.
+2. Note that currently all stored dates have no time, or rather, their time is midnight at the start of the day, local time.
+3. For example uses of date properties, see [[Filters#Due Date]] and [[Grouping#Due Date]].
+4. `task.happens` is the earlier of `task.due`, `task.scheduled` and `task.start`.
+5. `task.cancelled` was added in Tasks 5.5.0.
 
 ## Values in TasksDate Properties
 
@@ -12394,30 +12394,30 @@ For more information, including adding your own customised statuses, see [[Statu
 <!-- placeholder to force blank line after included text --><!-- endInclude -->
 
 1. These examples refer to `task.due`, but they can be used on any of the date properties show in the section [[#Values for Dates in Tasks]] above.
-1. The `TasksDate` formatting methods use the [moment.js format characters](https://momentjs.com/docs/#/displaying/format/).
-1. The `TasksDate` formatting methods all take an optional `fallBackText` string value, which is the value to use when there is no date. <br>The `fallBackText` value can be any of:
+2. The `TasksDate` formatting methods use the [moment.js format characters](https://momentjs.com/docs/#/displaying/format/).
+3. The `TasksDate` formatting methods all take an optional `fallBackText` string value, which is the value to use when there is no date. <br>The `fallBackText` value can be any of:
     - a fixed string, such as `'no date'`,
     - an [[Expressions|expression]], such as `task.priorityName` or `task.priorityNameGroupText`,
     - an empty string `''` or `""`, meaning 'do not add a heading for tasks missing this date property'.
-1. You can see the current [TasksDate source code](https://github.com/obsidian-tasks-group/obsidian-tasks/blob/main/src/DateTime/TasksDate.ts), to explore its implementation.
-1. `task.due.toISOString(true)` prevents UTC conversion - see the [moment documentation](https://momentjs.com/docs/#/displaying/as-iso-string/)
-1. `category` divides dates in to 5 named groups:
+4. You can see the current [TasksDate source code](https://github.com/obsidian-tasks-group/obsidian-tasks/blob/main/src/DateTime/TasksDate.ts), to explore its implementation.
+5. `task.due.toISOString(true)` prevents UTC conversion - see the [moment documentation](https://momentjs.com/docs/#/displaying/as-iso-string/)
+6. `category` divides dates in to 5 named groups:
     - `Invalid date`
     - `Overdue`
     - `Today`
     - `Future`
     - `Undated`
     - And they are numbered 0, 1, 2, 3 and 4, in the order listed above.
-1. `fromNow` groups dates by the [time from now](https://momentjs.com/docs/#/displaying/fromnow/), for example:
+7. `fromNow` groups dates by the [time from now](https://momentjs.com/docs/#/displaying/fromnow/), for example:
     - `2 months ago`
     - `8 days ago`
     - `in 11 hours`
     - `in 5 days`
     - `in 3 months`
     - `in a year`
-1. The `category` properties were added in Tasks 4.9.0.
+8. The `category` properties were added in Tasks 4.9.0.
     - The `Invalid date` category was added in Tasks 6.0.0.
-1. The `fromNow` properties were added in Tasks 4.9.0.
+9. The `fromNow` properties were added in Tasks 4.9.0.
 
 ## Values for Task Dependencies
 
@@ -12433,9 +12433,9 @@ For more information, including adding your own customised statuses, see [[Statu
 <!-- placeholder to force blank line after included text --><!-- endInclude -->
 
 1. See the page [[Task Dependencies]], which explains the dependencies facility.
-1. `Task.isBlocked()` behaves the same as `is blocked`: see [[Filters#Blocked Tasks]].
-1. `Task.isBlocking()` behaves the same as `is blocking`: see  [[Filters#Blocking Tasks]].
-1. Task Dependencies were released in Tasks 6.1.0.
+2. `Task.isBlocked()` behaves the same as `is blocked`: see [[Filters#Blocked Tasks]].
+3. `Task.isBlocking()` behaves the same as `is blocking`: see  [[Filters#Blocking Tasks]].
+4. Task Dependencies were released in Tasks 6.1.0.
 
 ## Values for Other Task Properties
 
@@ -12459,21 +12459,21 @@ For more information, including adding your own customised statuses, see [[Statu
 <!-- placeholder to force blank line after included text --><!-- endInclude -->
 
 1. `task.description` has spaces at the start and end stripped off.
-1. `task.description` includes any tags.
-1. `task.priorityName` and `task.priorityNumber` values are:
+2. `task.description` includes any tags.
+3. `task.priorityName` and `task.priorityNumber` values are:
     - 'Highest': 0
     - 'High': 1
     - 'Medium': 2
     - 'Normal': 3
     - 'Low': 4
     - 'Lowest': 5
-1. `task.priorityNameGroupText` (added in Tasks 4.9.0) is a convenient way to sort priority names in to a natural order in custom grouping functions.
-1. `task.isRecurring` is:
+4. `task.priorityNameGroupText` (added in Tasks 4.9.0) is a convenient way to sort priority names in to a natural order in custom grouping functions.
+5. `task.isRecurring` is:
     - `true` if the Task has a **valid** recurrence rule,
     - `false` if:
         - **either** it does not have a recurrence rule
         - **or** the recurrence rule is invalid (such as `🔁  every seven weeks`, for example).
-1. `task.recurrenceRule` is:
+6. `task.recurrenceRule` is:
     - **either** the standardised text of the recurrence rule if the Task has a **valid** recurrence rule
         - An example might be `every 7 weeks`.
         - Note that this text is generated programmatically and standardised, and so may not exactly match the text in any manually typed tasks.
@@ -12481,11 +12481,11 @@ For more information, including adding your own customised statuses, see [[Statu
     - **or** an empty string (`''`) if:
         - **either** it does not have a recurrence rule,
         - **or** the recurrence rule is invalid (such as `🔁  every seven weeks`, for example).
-1. `task.onCompletion` (added in Tasks 7.8.0) will have one of these values:
+7. `task.onCompletion` (added in Tasks 7.8.0) will have one of these values:
     - `delete`
     - `keep`
     - `` (empty string), which is the default, when the task has no [[On Completion]] action specified.
-1. Note that if there is a [[Global Filter]] enabled in settings, and the filter is a tag, it will be removed from `task.tags`.
+8. Note that if there is a [[Global Filter]] enabled in settings, and the filter is a tag, it will be removed from `task.tags`.
 
 ## Values for File Properties
 
@@ -12505,10 +12505,10 @@ For more information, including adding your own customised statuses, see [[Statu
 <!-- placeholder to force blank line after included text --><!-- endInclude -->
 
 1. `task.file` is a `TasksFile` object.
-1. You can see the current [TasksFile source code](https://github.com/obsidian-tasks-group/obsidian-tasks/blob/main/src/Scripting/TasksFile.ts), to explore its capabilities.
-1. The presence of `.md` filename extensions is chosen to match the existing conventions in the Tasks filter instructions [[Filters#File Path|path]] and [[Filters#File Name|filename]].
-1. `task.file.pathWithoutExtension` was added in Tasks 4.8.0.
-1. `task.file.filenameWithoutExtension` was added in Tasks 4.8.0.
+2. You can see the current [TasksFile source code](https://github.com/obsidian-tasks-group/obsidian-tasks/blob/main/src/Scripting/TasksFile.ts), to explore its capabilities.
+3. The presence of `.md` filename extensions is chosen to match the existing conventions in the Tasks filter instructions [[Filters#File Path|path]] and [[Filters#File Name|filename]].
+4. `task.file.pathWithoutExtension` was added in Tasks 4.8.0.
+5. `task.file.filenameWithoutExtension` was added in Tasks 4.8.0.
 
 [^commented]: Text inside `%% ... %%` comments is hidden from view. It is used to control the order that group headings are sorted in.
 
@@ -12539,5 +12539,5 @@ These are described in full in [[Obsidian Properties]].
 <!-- placeholder to force blank line after included text --><!-- endInclude -->
 
 1. `task.file.hasProperty()` and `task.file.property()` were added in Tasks 7.7.0
-1. `task.file.hasProperty('property name')` returns true if the property `'property name'` is both present in the file and has a non-`null` value.
-1. `task.file.property('property name')` returns either the value in the file, or `null` if there is no value.
+2. `task.file.hasProperty('property name')` returns true if the property `'property name'` is both present in the file and has a non-`null` value.
+3. `task.file.property('property name')` returns either the value in the file, or `null` if there is no value.

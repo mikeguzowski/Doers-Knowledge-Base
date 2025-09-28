@@ -20,4 +20,4 @@ Finally, please understand that with great power comes great responsibility. Now
 
 If you’re convinced Obsidian is worth a try for you, it’s time to get started:
 
-→ [[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Guides/Get started with Obsidian]]
+→ [[Obsidian 101/Guides/Get started with Obsidian]]

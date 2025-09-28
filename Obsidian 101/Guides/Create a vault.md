@@ -15,4 +15,4 @@ If you already have a folder that you want to use as your vault:
 2. In the file browser, select the folder you want to use as your vault.
 3. Click **Open**.
 
-Now that you've set up your vault, you're ready to [[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Guides/Create your first note]].
+Now that you've set up your vault, you're ready to [[Obsidian 101/Guides/Create your first note]].

@@ -22,8 +22,8 @@ Obsidian also supports [Markdown](https://en.wikipedia.org/wiki/Markdown)—a ma
 
 2. In your note, select the text "knowledge base" and press Ctrl+B (or Cmd+B on macOS) to make it bold.
 
-To learn more about how to format your notes using Markdown, refer to [[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Guides/Format your notes]].
+To learn more about how to format your notes using Markdown, refer to [[Obsidian 101/Guides/Format your notes]].
 
 ## Learn more
 
-Learn how to [[2 Initiatives/Hiperaktywny Mike/ADHD Do'ers/Doers Knowledge Base/Obsidian 101/Guides/Link notes|link notes]] to create a network of connected thoughts.
+Learn how to [[Obsidian 101/Guides/Link notes|link notes]] to create a network of connected thoughts.
