@@ -1,0 +1,6 @@
+| Nazwa    | Opis                                                                                                                            | Use case                                                                            |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Canva    | Platforma do projektowania graficznego oferująca szeroki zakres szablonów i narzędzi.                                           |                                                                                     |
+| Capcut   | Platforma do projektowania graficznego oferująca szeroki zakres szablonów i narzędzi.                                           | Edycja filmów na TikToka, dodawanie efektów wizualnych i muzyki                     |
+| Make.com | Platforma umożliwiająca tworzenie zautomatyzowanych przepływów pracy między aplikacjami bez potrzeby kodowania.                 | Automatyzacja raportów, integracja narzędzi takich jak Slack, Google Sheets i Asana |
+| Obsidian | Platforma do zbierania notatek cechująca się ogromną elastycznością oraz możliwościami. Rekomendowana do budowania Second Brain | Second Brain, Personal Knowledge Base,                                              |
