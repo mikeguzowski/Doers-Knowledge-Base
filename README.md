@@ -36,7 +36,7 @@ Możesz pomóc na kilka sposobów:
 
 - dodając nowe linki i narzędzia,    
 - poprawiając istniejące treści,    
-- rozwijając dokumentację w folderze `obsidian-101`,    
+- rozwijając dokumentację w folderze [Obsidian-101]([Doers-Knowledge-Base/Obsidian 101 at main · mikeguzowski/Doers-Knowledge-Base · GitHub](https://github.com/mikeguzowski/Doers-Knowledge-Base/tree/main/Obsidian%20101)),    
 - zgłaszając sugestie przez **Issues** lub **Pull Requesty**.    
 
 Nie musisz być ekspertem – każdy wkład jest wartościowy.
