@@ -1,4 +1,22 @@
+## 2025-09-13
 
+- Utworzyłem bazę wiedzy społeczności na github -> [Do'ers Knowledge Base](https://hiperaktywnymike.pl/kb). Więcej przeczytasz pod wskazanym linkiem. 
+- Stworzyłem kanał "Sparing pomysłów" -> 
+  Masz pomysł biznesowy? 
+  Chodzi Ci po głowie rzucenie wszystkiego i stworzenie tego startupu albo produktu? 
+  
+  Powiedz nam o tym. 
+  I pozwól dać sobie feedback. 
+  
+  Osoby kreatywne mają tendencję do wpadania w samozachwyt swoich pomysłów. 
+  Ta energia, która nas napędza i jest niezbędna do zasilania przedsięwzięcia, nierzadko nas także zaślepia. 
+  
+  I właśnie dlatego na tym kanale możesz podzielić się swoim pomysłem, a następnie tagami określ czego oczekujesz:
+	- pytania poszerzające rozumienie pomysłu
+	- opinie o pomyśle
+	- sugestie zmiany
+	- własne doświadczenie
+	- porady
 ## 2025-09-13
 
 Czołem Do’erzy! 🚀  
