@@ -16,7 +16,9 @@ Baza zawiera zbiory materiałów, które pomagają w codziennym życiu, pracy i 
     
 - **[📝 Obsidian 101]([Doers-Knowledge-Base/Obsidian 101 at main · mikeguzowski/Doers-Knowledge-Base · GitHub](https://github.com/mikeguzowski/Doers-Knowledge-Base/tree/main/Obsidian%20101))**  
     Folder zawierający bazę wiedzy o **Obsidianie** – jednym z najważniejszych narzędzi do organizowania informacji i budowania „Second Brain”. Znajdziesz tu przewodniki krok po kroku, tipy i przykłady.
-
+    
+- **[🔄️ Server Updates](https://github.com/mikeguzowski/Doers-Knowledge-Base/tree/main/server%20updates)**
+	W tym miejscu znajdziesz wszystkie aktualizacje naszego serwera "ADHD Do'ers" na Discord. Jeśli nie będzie Cię jakiś czas i do nas wrócisz, to w tym miejscu będziesz mógł przeczytać o wszystkich zmianach - chronologicznie naturalnie!
 ---
 ## 🙌 Misja społeczności
 
