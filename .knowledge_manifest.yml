@@ -1,0 +1,10 @@
+# Plik manifestu określający, które pliki wchodzą w skład bazy wiedzy.
+# Tylko pliki wymienione tutaj zostaną zindeksowane w bazie wektorowej.
+# Pamiętaj o wpisaniu tych plików do .github/workflows/sync.yml
+# tam definiujesz które pliki podczas zmiany mają wywoływać wektoryzacje plików niżej zapisanych
+
+files:
+  - piwnica-it/linki.md
+  - Linki.md
+  - Rekomendowane narzędzia.md
+  - ai/linki.md

@@ -1,0 +1,52 @@
+# .github/workflows/sync.yml
+name: Sync Knowledge Base to Qdrant
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "piwnica-it/**"
+      - "Linki.md"
+      - "Rekomendowane narzędzia.md"
+      - "ai/**"
+      - ".knowledge_manifest.yml"
+  workflow_dispatch:
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      # Krok 1: Pobranie repozytorium WIEDZY
+      - name: 1. Checkout Knowledge Base repository
+        uses: actions/checkout@v4
+
+      # Krok 2: Ustawienie Pythona
+      - name: 2. Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      # Krok 3: Pobranie wybranych plików z repozytorium KODU
+      - name: 3. Sparse checkout sync script from Bot repository
+        run: |
+          mkdir skryba-bot-code
+          cd skryba-bot-code
+          git init
+          git remote add origin https://github.com/Wiecek-K/discord-skryba-bot.git
+          git config core.sparseCheckout true
+          echo "bot/scripts/" >> .git/info/sparse-checkout
+          echo "requirements.txt" >> .git/info/sparse-checkout
+          git pull --depth=1 origin main
+
+      # Krok 4: Instalacja zależności
+      - name: 4. Install Python dependencies from bot repo
+        run: pip install -r skryba-bot-code/requirements.txt
+
+      # Krok 5: Uruchomienie głównego skryptu
+      - name: 5. Run the sync script from bot repo
+        run: python skryba-bot-code/bot/scripts/sync_to_qdrant.py
+        env:
+          QDRANT_HOST: ${{ secrets.QDRANT_HOST_IP }}
+          QDRANT_PORT: 6333
