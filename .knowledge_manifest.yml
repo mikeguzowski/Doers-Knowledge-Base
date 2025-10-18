@@ -4,7 +4,6 @@
 # tam definiujesz które pliki podczas zmiany mają wywoływać wektoryzacje plików niżej zapisanych
 
 files:
-  - piwnica-it/linki.md
   - Linki.md
   - Rekomendowane narzędzia.md
-  - ai/linki.md
+  - new-knowledge/new-knowledge.md
