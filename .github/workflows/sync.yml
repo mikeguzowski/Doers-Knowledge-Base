@@ -6,10 +6,9 @@ on:
     branches:
       - main
     paths:
-      - "piwnica-it/**"
-      - "Linki.md"
-      - "Rekomendowane narzędzia.md"
-      - "ai/**"
+      - "new-knowledge/**"
+      - 'Linki.md'
+      - 'Rekomendowane narzędzia.md'
       - ".knowledge_manifest.yml"
   workflow_dispatch:
 
