@@ -4,6 +4,6 @@
 # tam definiujesz które pliki podczas zmiany mają wywoływać wektoryzacje plików niżej zapisanych
 
 files:
-  - Linki.md
-  - Rekomendowane narzędzia.md
-  - new-knowledge/new-knowledge.md
+  - 'Linki.md'
+  - 'Rekomendowane narzędzia.md'
+  - 'new-knowledge/new-knowledge.md'
