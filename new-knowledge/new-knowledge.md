@@ -1,3 +1,4 @@
 | Link | Opis |
 |---|---|
 | [https://gpex.narzedzia.it/](https://gpex.narzedzia.it/) | Narzędzie do porównywania jakie gry dostępne są w danej wersji Xbox GamePass |
+| [https://www.linkedin.com/posts...](https://www.linkedin.com/posts/orebro-university_planerade-kejsarsnitt-mer-vanligt-hos-kvinnor-activity-7396084070855831552-oUuX) | Na LI mozecie zrobic autotłumaczenie calosci. Kontekst: U kobiet z adhd, jest wiecej planowych cesarek, a dzieci rodza się wieksze, niz by to wynikalo z dlugosci ciazy. Badanie na 1,6 mln ciazy w okresie 2006-2020.  "Adhd samo w sobie nie zwieksza ryzyka wczesniejszego porodu, jak twierdza poprzednie badania" |
