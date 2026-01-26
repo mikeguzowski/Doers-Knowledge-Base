@@ -2,3 +2,4 @@
 |---|---|
 | [https://gpex.narzedzia.it/](https://gpex.narzedzia.it/) | Narzędzie do porównywania jakie gry dostępne są w danej wersji Xbox GamePass |
 | [prompt gemini zdjęcie osoby](prompt gemini zdjęcie osoby) | Wygeneruj zdjęcie osoby z załączonego zdjęcia, zachowując rysy twarzy takie same jak na zdjęciu referencyjnym. Osoba stoi w sali szpitalnej psychiatrycznej. Na ścianach, suficie i podłodze przymocowane są miękkie panele. Stoi przed kamerą, patrząc prosto na widza. Jej oczy są szeroko otwarte, a usta uśmiechnięte niepokojącym uśmiechem. Włosy w nieładzie, z wieloma pasmami odstającymi w różnych kierunkach. Ma na sobie kaftan bezpieczeństwa. Styl realistyczny, obiektyw typu rybie oko. |
+| [https://thecreatools.com/](https://thecreatools.com/) | Wyszukiwarka rozwiązań AI |
